@@ -1,6 +1,7 @@
 ﻿[build]
 builder = "dockerfile"
-dockerfile = "./Dockerfile"
+dockerfile = "./ACME.CargoExpress.API/Dockerfile"
+
 
 
 [deploy]
