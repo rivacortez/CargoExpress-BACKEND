@@ -40,9 +40,10 @@ builder.Services.AddCors(options =>
         builder =>
         {
             builder
-                .AllowAnyOrigin() 
+                .AllowAnyOrigin()
                 .AllowAnyMethod()
                 .AllowAnyHeader();
+               
         });
 });
 
@@ -67,6 +68,7 @@ builder.Services.AddDbContext<AppDbContext>(
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddSwaggerGen(
     c =>
     {
@@ -179,7 +181,7 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     var context = services.GetRequiredService<AppDbContext>();
-    context.Database.EnsureCreated();
+  
 }
 
 // Configure the HTTP request pipeline.

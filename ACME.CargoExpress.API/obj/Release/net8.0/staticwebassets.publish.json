@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bK8dwL1/kxDwxO6zERLaVNYnElgdqWIqok/DfA9w86o=",
+  "Source": "ACME.CargoExpress.API",
+  "BasePath": "_content/ACME.CargoExpress.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
